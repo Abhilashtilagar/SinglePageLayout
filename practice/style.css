@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+
+}
+#nav .first h2{
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: small;
+}
+#nav .first{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+#nav .second{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.first{
+    margin: 10px 20px;
+    
+}
+.first h2{
+font-weight: lighter;
+}
+.second{
+    text-transform: uppercase;
+}
+.third{
+    margin: 10px 20px;
+    
+
+}
+.third .two{
+    background-color: orangered;
+    color: white;
+}
+.third button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color:black;
+    border: 1.5px solid black;
+
+}
+.body h1{
+    position: absolute;
+    font-size: 90px;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.body img{
+    height: 400px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-fit: cover;
+    border-radius: 12px;
+}
+.body #secondimg{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+.body #thirdimg{
+     transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+
+#main .footer .side {
+    position:absolute;
+    bottom: 0;
+    padding: 5px 10px;
+
+}
+#main .footer .otherside{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 6px 10px;
+}
